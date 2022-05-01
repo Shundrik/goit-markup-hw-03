@@ -25,41 +25,35 @@
   <body>
     <!-- Шапка -->
 
-    <div class="main-header">
-      <div class="conteiner">
-        <header class="header">
-          <nav class="nav">
-            <a class="logo" href="./index.html">
-              <span class="logo-web" lang="en">Web</span>
-              <span class="logo-studio" lang="en"> Studio</span></a
+    <header class="header">
+      <div class="conteiner main-header">
+        <nav class="nav">
+          <a class="logo" href="./index.html">
+            <span class="logo-web" lang="en">Web</span>
+            <span class="logo-studio" lang="en"> Studio</span></a
+          >
+          <ul class="nav-list">
+            <li class="list">
+              <a class="nav-item current" href="./index.html">Студия</a>
+            </li>
+            <li class="list">
+              <a class="nav-item" href="./portfolio.htm">Портфолио</a>
+            </li>
+            <li class="list"><a class="nav-item" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="auth-list">
+          <li class="item">
+            <a class="auth-link" href="mailto:info@destudio.com"
+              >info@destudio.com</a
             >
-            <ul class="nav-list">
-              <li class="list">
-                <a class="nav-item current" href="./index.html">Студия</a>
-              </li>
-              <li class="list">
-                <a class="nav-item" href="./portfolio.htm">Портфолио</a>
-              </li>
-              <li class="list"><a class="nav-item" href="">Контакты</a></li>
-            </ul>
-          </nav>
-          <div class="auth">
-            <ul class="page-auth">
-              <li class="item">
-                <a class="page-link" href="mailto:info@destudio.com"
-                  >info@destudio.com</a
-                >
-              </li>
-              <li class="item">
-                <a class="page-link" href="tel:+380961111111"
-                  >+38 096 111 11 11</a
-                >
-              </li>
-            </ul>
-          </div>
-        </header>
+          </li>
+          <li class="item">
+            <a class="auth-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </header>
 
     <!-- главная -->
     <main>
@@ -110,11 +104,12 @@
       </div>
 
       <!-- чем мы занимаемся -->
-      <div class="conteiner">
-        <section class="section">
+
+      <section class="section">
+        <div class="conteiner">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="about-list">
-            <li>
+            <li class="about-item">
               <img
                 src="./img/box-1.jpg"
                 alt=" работа за планшетом на клавиатуре"
@@ -122,7 +117,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="about-item">
               <img
                 src="./img/box-2.jpg"
                 alt="смартфон в руке"
@@ -130,7 +125,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="about-item">
               <img
                 src="./img/box-3.jpg"
                 alt="планшет в руке"
@@ -139,8 +134,8 @@
               />
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!-- Наша команда -->
 
@@ -155,8 +150,11 @@
                 width="270"
                 height="260"
               />
+              <div class="team-card">
+                
               <h3 class="team-title">Игорь Демьяненко</h3>
               <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -165,8 +163,11 @@
                 width="270"
                 height="260"
               />
+              <div class="team-card">
+                
               <h3 class="team-title">Ольга Репина</h3>
               <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -175,8 +176,11 @@
                 width="270"
                 height="260"
               />
+              <div class="team-card">
+                
               <h3 class="team-title">Николай Тарасов</h3>
               <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -185,8 +189,11 @@
                 width="270"
                 height="260"
               />
+              <div class="team-card">
+                
               <h3 class="team-title">Михаил Ермаков</h3>
               <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
