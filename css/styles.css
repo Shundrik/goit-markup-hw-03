@@ -264,6 +264,8 @@ button:hover {
 /* чем мы занимаемся */
 .section.about{
   padding: 0;
+  padding-bottom: 94px;
+
 }
 .about-list {
   display: flex;
@@ -375,6 +377,7 @@ address {
   color: rgba(255, 255, 255, 0.6);
 
   margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
 }
 
